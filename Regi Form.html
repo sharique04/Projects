@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Field set</title>
+    <style>
+       position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+         h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color:#1e1005;
+   }
+   input[type="submit"]:hover{
+    background-color: #44d115;
+    color: #000000;
+  
+
+}
+input[type="radio"]
+{
+    margin-right: 5px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+body {
+    align-items: center;
+    background: rgb(67, 198, 194);
+    color: $font-color;
+    display: grid;
+    font-family: $font-family;
+    font-size: 14px;
+    font-weight: 400;
+    height: 100vh;
+    justify-items: center;
+    weight: 100vw;
+
+    </style>
+  </head>
+  <body>
+    <h1>Advancce Diploma in Data Science and Machine Learning</h1>
+  </body>
+  <div class="container">
+
+  <form>
+    <fieldset>
+      <legend>Personal Details</legend>
+      <label for="fname">Full name:</label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <label for="lname">Father Full name:</label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <label for="lname">Mother Full name:</label>
+      <input type="text" id="lname" name="lname" /><br /><br />
+      <label for="email">Email Address:</label>
+      <input type="text" id="email" name="email" /><br /><br />
+      <label for="lname">Nationality</label>
+      <input type="text" id="lname" name="lname" /><br /><br />
+      <label for="phone">Contact Number:</label>
+      <input type="phone" id="phone" name="phone" /><br /><br />
+      <label for="address"> Address:</label>
+      <input type="text" id="address" name="address" /><br /><br />
+      Hobbies:<br />
+      <input type="checkbox" />Reading<br />
+      <input type="checkbox" />Singing<br />
+      <input type="checkbox" />Dancing<br />
+      <br />
+    </fieldset>
+
+    <fieldset>
+      <legend>Qualification</legend>
+      <label for="fname">Highest Qualification</label>
+      <select name="fname" id="fname">
+        <option value="10th">BSC</option>
+        <option value="12th">MSC</option></select
+      ><br /><br />
+      <label for="fname">Specialization:</label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+
+      <label for="fname">Institution</label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+
+      <label for="fname">Grade</label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+
+      Pursuing any higher education?:<br />
+      <input type="radio" name="gender" />yes<br />
+      <input type="radio" name="gender" />no<br />
+      <textarea name="fname" id="" cols="30"></textarea>
+      <br /><br />
+
+      Mention the Degree/Course for higher education:<br />
+      <input type="text" id="fname" name="fname" /><br /><br />
+    </fieldset>
+
+    <fieldset>
+      <legend>Course</legend>
+      <label for="fname">Why do you want to join this course?:</label>
+      <textarea name="fname" id=""></textarea>
+      <br /><br />
+
+      <label for="fname">Where did you learn about the course?:</label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+
+      <label for="fname">your expectations from this course?:</label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+
+      <label for="fname">Which Job rolr are you looking for?:</label>
+      <select name="fname" id="fname">
+        <option value="10th">Data Scientist</option>
+        <option value="12th">Data Analyst</option>
+        <option value="12th">Data Engineer</option></select
+
+      <br /><br />
+    </fieldset>
+    <br />
+    <input type="submit" value="Submit" />
+  </form>
+</html>
